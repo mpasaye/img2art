@@ -1,12 +1,15 @@
 /* Creator: Michael Pasaye
  * Program: img2art
 */
-#include "img2art.h"
+
+// Includes
+#include <iostream>
+#include <string>
 
 int main (int argc, char** argv) {
     string imgPhrase;
-    cout << "Enter a phrase: \n";
+    std::cout << "Enter a phrase: \n";
 
-    getline (cin, imgPhrase);
-    cout << imgPhrase << endl;
+    std::getline (std::cin, imgPhrase);
+    std::cout << imgPhrase << std::endl;
 }
