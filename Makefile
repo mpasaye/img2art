@@ -1,6 +1,6 @@
 .RECIPEPREFIX = >
-CC=gcc
-CFLAGS=-Wall -Wextra -Wpedantic -g
+CC=g++
+CFLAGS=-std=c++23 -Wall -Wextra -Wpedantic -g
 DEPS = img2art.h
 OBJ = imgMain.o
 
