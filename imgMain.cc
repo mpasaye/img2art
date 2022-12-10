@@ -3,13 +3,13 @@
 */
 
 // Includes
-#include <iostream>
-#include <string>
+#include "img2art.h"
 
 int main (int argc, char** argv) {
-    string imgPhrase;
-    std::cout << "Enter a phrase: \n";
+    string phrase;
 
-    std::getline (std::cin, imgPhrase);
-    std::cout << imgPhrase << std::endl;
+    cout << "Enter a phrase: ";
+
+    getline (cin, phrase);
+    cout << phrase << endl;
 }
