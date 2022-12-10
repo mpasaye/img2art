@@ -2,7 +2,9 @@
  * Program: img2art
 */
 
-// INCLUDES
-#include <iostream>
-
+// Namespace
 using namespace std;
+
+// Includes
+#include <iostream>
+#include <string>
