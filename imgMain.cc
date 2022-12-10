@@ -4,5 +4,5 @@
 #include "img2art.h"
 
 int main (int argc, char** argv) {
-    
+       cout << "Enter a phrase: \n";	
 }
