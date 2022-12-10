@@ -9,3 +9,6 @@ OBJ = imgMain.o
 
 img2art: $(OBJ)
 > $(CC) -o $@ $^ $(CFLAGS)
+
+clean:
+> rm -rf *.o
